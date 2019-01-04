@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 49;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6860051A2181A191005F7006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686005192181A191005F7006 /* AppDelegate.m */; };
+		6860051D2181A191005F7006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860051C2181A191005F7006 /* ViewController.m */; };
+		686005202181A191005F7006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6860051E2181A191005F7006 /* Main.storyboard */; };
+		686005222181A19E005F7006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686005212181A19E005F7006 /* Assets.xcassets */; };
+		686005252181A19E005F7006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686005232181A19E005F7006 /* LaunchScreen.storyboard */; };
+		686005282181A19E005F7006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 686005272181A19E005F7006 /* main.m */; };
+		686005302181A262005F7006 /* AddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860052F2181A262005F7006 /* AddNewViewController.m */; };
+		686005362181A388005F7006 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686005322181A388005F7006 /* SkyFloatingLabelTextField.swift */; };
+		686005372181A388005F7006 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686005332181A388005F7006 /* UITextField+fixCaretPosition.swift */; };
+		686005382181A388005F7006 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686005342181A388005F7006 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		6860053F2181A3C0005F7006 /* SkyFloatingLabelTextField.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6860053D2181A3C0005F7006 /* SkyFloatingLabelTextField.xcconfig */; };
+		686005402181A3C0005F7006 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6860053E2181A3C0005F7006 /* SkyFloatingLabelTextField-dummy.m */; };
+		686005432181B0EF005F7006 /* TblCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 686005422181B0EF005F7006 /* TblCellData.m */; };
+		F1D6D0E021D5064E00D63B90 /* NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D6D0DF21D5064D00D63B90 /* NotificationHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		686005152181A191005F7006 /* TestTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		686005182181A191005F7006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		686005192181A191005F7006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6860051B2181A191005F7006 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6860051C2181A191005F7006 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6860051F2181A191005F7006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		686005212181A19E005F7006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		686005242181A19E005F7006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		686005262181A19E005F7006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686005272181A19E005F7006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6860052E2181A262005F7006 /* AddNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNewViewController.h; sourceTree = "<group>"; };
+		6860052F2181A262005F7006 /* AddNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewViewController.m; sourceTree = "<group>"; };
+		686005322181A388005F7006 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		686005332181A388005F7006 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		686005342181A388005F7006 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		6860053A2181A3C0005F7006 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		6860053B2181A3C0005F7006 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		6860053C2181A3C0005F7006 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		6860053D2181A3C0005F7006 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		6860053E2181A3C0005F7006 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		686005412181B0EF005F7006 /* TblCellData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TblCellData.h; sourceTree = "<group>"; };
+		686005422181B0EF005F7006 /* TblCellData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TblCellData.m; sourceTree = "<group>"; };
+		F1D6D0DF21D5064D00D63B90 /* NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationHelper.m; sourceTree = "<group>"; };
+		F1D6D0E121D5066C00D63B90 /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		686005122181A191005F7006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6860050C2181A190005F7006 = {
+			isa = PBXGroup;
+			children = (
+				686005172181A191005F7006 /* TestTimer */,
+				686005162181A191005F7006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		686005162181A191005F7006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				686005152181A191005F7006 /* TestTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		686005172181A191005F7006 /* TestTimer */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6D0DD21D5064D00D63B90 /* NotificationHelper */,
+				686005312181A388005F7006 /* SkyFloatingLabelTextField */,
+				686005182181A191005F7006 /* AppDelegate.h */,
+				686005192181A191005F7006 /* AppDelegate.m */,
+				6860051B2181A191005F7006 /* ViewController.h */,
+				6860051C2181A191005F7006 /* ViewController.m */,
+				686005412181B0EF005F7006 /* TblCellData.h */,
+				686005422181B0EF005F7006 /* TblCellData.m */,
+				6860052E2181A262005F7006 /* AddNewViewController.h */,
+				6860052F2181A262005F7006 /* AddNewViewController.m */,
+				6860051E2181A191005F7006 /* Main.storyboard */,
+				686005212181A19E005F7006 /* Assets.xcassets */,
+				686005232181A19E005F7006 /* LaunchScreen.storyboard */,
+				686005262181A19E005F7006 /* Info.plist */,
+				686005272181A19E005F7006 /* main.m */,
+			);
+			path = TestTimer;
+			sourceTree = "<group>";
+		};
+		686005312181A388005F7006 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6860053E2181A3C0005F7006 /* SkyFloatingLabelTextField-dummy.m */,
+				6860053C2181A3C0005F7006 /* SkyFloatingLabelTextField-prefix.pch */,
+				6860053A2181A3C0005F7006 /* SkyFloatingLabelTextField-umbrella.h */,
+				6860053B2181A3C0005F7006 /* SkyFloatingLabelTextField.modulemap */,
+				6860053D2181A3C0005F7006 /* SkyFloatingLabelTextField.xcconfig */,
+				686005322181A388005F7006 /* SkyFloatingLabelTextField.swift */,
+				686005332181A388005F7006 /* UITextField+fixCaretPosition.swift */,
+				686005342181A388005F7006 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		F1D6D0DD21D5064D00D63B90 /* NotificationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6D0E121D5066C00D63B90 /* NotificationHelper.h */,
+				F1D6D0DF21D5064D00D63B90 /* NotificationHelper.m */,
+			);
+			path = NotificationHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		686005142181A191005F7006 /* TestTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6860052B2181A19E005F7006 /* Build configuration list for PBXNativeTarget "TestTimer" */;
+			buildPhases = (
+				686005112181A191005F7006 /* Sources */,
+				686005122181A191005F7006 /* Frameworks */,
+				686005132181A191005F7006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTimer;
+			productName = TestTimer;
+			productReference = 686005152181A191005F7006 /* TestTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6860050D2181A190005F7006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = INT;
+				TargetAttributes = {
+					686005142181A191005F7006 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 686005102181A190005F7006 /* Build configuration list for PBXProject "TestTimer" */;
+			compatibilityVersion = "Xcode 9.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6860050C2181A190005F7006;
+			productRefGroup = 686005162181A191005F7006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				686005142181A191005F7006 /* TestTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		686005132181A191005F7006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6860053F2181A3C0005F7006 /* SkyFloatingLabelTextField.xcconfig in Resources */,
+				686005252181A19E005F7006 /* LaunchScreen.storyboard in Resources */,
+				686005222181A19E005F7006 /* Assets.xcassets in Resources */,
+				686005202181A191005F7006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		686005112181A191005F7006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6D0E021D5064E00D63B90 /* NotificationHelper.m in Sources */,
+				686005432181B0EF005F7006 /* TblCellData.m in Sources */,
+				686005372181A388005F7006 /* UITextField+fixCaretPosition.swift in Sources */,
+				6860051D2181A191005F7006 /* ViewController.m in Sources */,
+				686005382181A388005F7006 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				686005402181A3C0005F7006 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				686005282181A19E005F7006 /* main.m in Sources */,
+				6860051A2181A191005F7006 /* AppDelegate.m in Sources */,
+				686005302181A262005F7006 /* AddNewViewController.m in Sources */,
+				686005362181A388005F7006 /* SkyFloatingLabelTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6860051E2181A191005F7006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6860051F2181A191005F7006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		686005232181A19E005F7006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				686005242181A19E005F7006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		686005292181A19E005F7006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anil Agrawal (QV9VDQ9YRS)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6860052A2181A19E005F7006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anil Agrawal (QV9VDQ9YRS)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6860052C2181A19E005F7006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anil Agrawal (QV9VDQ9YRS)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 63PFD8MF4B;
+				INFOPLIST_FILE = TestTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CL.SLCScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Certi_SLC_Scanner_Dev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6860052D2181A19E005F7006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anil Agrawal (QV9VDQ9YRS)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 63PFD8MF4B;
+				INFOPLIST_FILE = TestTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CL.SLCScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Certi_SLC_Scanner_Dev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		686005102181A190005F7006 /* Build configuration list for PBXProject "TestTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686005292181A19E005F7006 /* Debug */,
+				6860052A2181A19E005F7006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6860052B2181A19E005F7006 /* Build configuration list for PBXNativeTarget "TestTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6860052C2181A19E005F7006 /* Debug */,
+				6860052D2181A19E005F7006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6860050D2181A190005F7006 /* Project object */;
+}
